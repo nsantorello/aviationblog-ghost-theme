@@ -542,15 +542,15 @@ blockquote {
     background-color: #999;
     text-decoration: none; }
 
-.paging {
+.paging, .pagination {
   margin-top: 4em;
   text-align: center; }
   .paging span {
     font-style: italic; }
-  .paging .next {
+  .paging .next, .pagination .older-posts {
     display: inline-block;
     margin-left: 1em; }
-  .paging .previous {
+  .paging .previous, .pagination .newer-posts {
     display: inline-block;
     margin-right: 1em; }
 
