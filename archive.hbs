@@ -1,0 +1,19 @@
+{{!< default}}
+
+{{! The comment above "< default" means - insert everything in this file into
+    the {body} of the default.hbs template, which contains our header/footer. }}
+
+{{! The main content area on the homepage }}
+<div class="content" role="main">
+
+    <article>
+	<h1>Archive</h1>
+		<ul class="archive">
+			{{! Each post will be output using this markup }}
+			{{#foreach posts}}
+				<li><a href="{{url}}">{{ title }}</a></li>
+			{{/foreach}}
+		</ul>
+	</article>
+
+</div>
