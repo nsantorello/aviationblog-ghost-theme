@@ -65,7 +65,7 @@
                 var figure = document.createElement("figure");
                 var caption = node.getAttribute("alt");
                 var src = node.getAttribute("src");
-                figure.innerHTML = "<img src=\"" + src + "\" /><figcaption>" + caption + "</figcaption>";
+                figure.innerHTML = "<a href=\"" + src + "\"><img src=\"" + src + "\" /></a><figcaption>" + caption + "</figcaption>";
                 node.parentNode.replaceChild(figure, node);
             }
         </script>
