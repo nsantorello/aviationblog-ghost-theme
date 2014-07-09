@@ -14,9 +14,9 @@
     <title>{{meta_title}}</title>
     <meta name="description" content="{{meta_description}}" />
 
-    <link rel="stylesheet" type="text/css" href="{{asset "app.css"}}">
-    <link rel="stylesheet" href="{{asset "layout.css"}}" media="(min-width:1em)">
-    <script type="text/javascript" src="{{asset "modernizr.min.js"}}"></script>
+    <link rel="stylesheet" type="text/css" href="{{asset "css/app.css"}}">
+    <link rel="stylesheet" href="{{asset "css/layout.css"}}" media="(min-width:1em)">
+    <script type="text/javascript" src="{{asset "js/modernizr.min.js"}}"></script>
 
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
@@ -37,10 +37,10 @@
             {{{body}}}
 
             <footer class="page-foot">
-                <a href="/about/"><span>About</span></a>
-                <a href="/archive/"><span>Archive</span></a>
-                <a href="/links/"><span>Links</span></a>
-                <a href="/rss.xml"><span>Feed</span></a>
+                <a href="/about"><span>About</span></a>
+                <a href="/archive"><span>Archive</span></a>
+                <a href="/links"><span>Links</span></a>
+                <a href="/rss"><span>Feed</span></a>
             </footer>
 
             {{! Ghost outputs important scripts and data with this tag }}
