@@ -514,6 +514,9 @@ ul, ol {
     line-height: 1.76923;
     line-height: 1.6em; }
 
+ul ul { 
+  margin-bottom: 0px;}
+
 blockquote {
   border-left: 3px solid #ccc;
   padding: 0 0 0 1em;
